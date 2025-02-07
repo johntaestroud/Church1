@@ -350,21 +350,11 @@ img {
 }
 
 .social__container {
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   row-gap: 5rem;
   justify-items: center;
   align-items: center;
 }
-
-.icon__font {
-  font-family: "Cormorant SC", serif;
-  font-weight: 300;
-  font-style: normal;
-  color: var(--cornsilk-color);
-  font-size: 24px;
-}
-
-
 
 /*=============== SPECS ===============*/
 .specs__container {
