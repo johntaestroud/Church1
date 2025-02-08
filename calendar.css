@@ -98,10 +98,19 @@ body{
   outline: none;
   cursor: pointer;
   text-decoration: none;
-  margin-bottom: 10px;
 }
 
-/*  */
+.back__button__calendar {
+  top: -4rem;
+  font-size: var(--h3-font-size);
+  background: var(--text-gradient);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+  /*  */
   .calendar{
     color: var(--white-color);
     margin: 10px auto;
