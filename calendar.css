@@ -90,8 +90,7 @@ body{
 .button--flex {
   display: inline-flex;
   align-items: center;
-  column-gap: .25rem;
-
+  /* column-gap: .25rem; */
   display: flex; 
   justify-content: center
 }
