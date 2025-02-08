@@ -73,7 +73,7 @@ body{
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background: var(--text-gradient);
+  background: var(--body-color);
   color: var(--white-color);
   padding: 0rem 0.25rem;
   transition: .3s;
