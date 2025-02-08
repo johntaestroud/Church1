@@ -80,7 +80,7 @@ body{
 }
 
 .button:hover {
-  background-color: var(--black-color-alt);
+  color: #395264;
 }
 
 .button__calendar__icon {
@@ -90,13 +90,15 @@ body{
 .button--flex {
   display: inline-flex;
   align-items: center;
-  column-gap: .75rem;
+  column-gap: .25rem;
 }
 
-button {
+.button {
   border: none;
   outline: none;
   cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 10px;
 }
 
 /*  */
@@ -407,7 +409,7 @@ button {
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    color: var(--text-gradient);
+    color: #395264;
   }
   .cview__month-last:hover,.cview__month-next:hover{
     color: #fff;
