@@ -44,6 +44,14 @@
     --z-fixed: 100;
   }
 
+   /*========== Google Font ========== */
+
+.cormorant-sc-light {
+  font-family: "Cormorant SC", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -61,7 +69,37 @@ body{
     background: -ms-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%, rgba(43,43,43,1) 0%, rgba(23,23,23,1) 91%, rgba(23,23,23,1) 100%);
     background: radial-gradient(ellipse at center, rgba(76,76,76,1) 0%, rgba(43,43,43,1) 0%, rgba(23,23,23,1) 91%, rgba(23,23,23,1) 100%); */
   }
+/*  */
+/*=============== BUTTONS ===============*/
+.button {
+  display: inline-block;
+  background: var(--text-gradient);
+  color: var(--white-color);
+  padding: 0rem 0.25rem;
+  transition: .3s;
+}
 
+.button:hover {
+  background-color: var(--black-color-alt);
+}
+
+.button__calendar__icon {
+  font-size: 0.2rem;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .75rem;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/*  */
   .calendar{
     color: var(--white-color);
     margin: 10px auto;
@@ -357,7 +395,7 @@ body{
     font-size: 22px;
     font-family: 'Avenir', sans-serif;
     padding-bottom: 20px;
-    color: #222;
+    color: var(--text-gradient);
     text-transform: uppercase;
     display: flex;
     flex-wrap: nowrap;
@@ -369,7 +407,7 @@ body{
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    color: #222;
+    color: var(--text-gradient);
   }
   .cview__month-last:hover,.cview__month-next:hover{
     color: #fff;
@@ -459,7 +497,6 @@ body{
   .footer__link{
     cursor: pointer;
     padding: 2px 5px;
-    border-bottom: 1px solid #fff;
   }
 
 /* Copyright 2025 https://codepen.io/ovdojoey/pen/GqRxYQ

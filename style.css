@@ -46,37 +46,6 @@
   --z-fixed: 100;
 }
 
- /*========== Google Font ========== */
-
-.cormorant-sc-light {
-    font-family: "Cormorant SC", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .cormorant-sc-regular {
-    font-family: "Cormorant SC", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .cormorant-sc-medium {
-    font-family: "Cormorant SC", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .cormorant-sc-semibold {
-    font-family: "Cormorant SC", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .cormorant-sc-bold {
-    font-family: "Cormorant SC", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
 
 @media screen and (min-width: 968px) {
   :root {
@@ -317,9 +286,8 @@ img {
   display: inline-block;
   /* background-color: var(--black-color); */
   background: var(--text-gradient);
-  color: var(--cornsilk-color);
-  padding: 1rem 1.25rem;
-  border-radius: .5rem;
+  color: var(--white-color);
+  padding: 0.1rem 0.25rem;
   transition: .3s;
 }
 
@@ -334,7 +302,7 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
-  column-gap: .75rem;
+  /* column-gap: .75rem; */
 }
 
 /*=============== SOCIAL ===============*/

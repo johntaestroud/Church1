@@ -13,9 +13,9 @@
 
     <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111" />
 
-  
     <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
 
+  
 
   <title>Calendar</title>
 
@@ -33,10 +33,19 @@
 </head>
 
 <body translate="no">
+
   <div class="calendar" id="calendar-app">
+    <a href="index.html" class="button button--flex">
+      
+      <span class="button--flex">   
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg>
+      </span>
+    </a>
+   
+
   <div class="calendar--day-view" id="day-view">
     <span class="day-view-exit" id="day-view-exit">&times;</span>
-    <span class="day-view-date" id="day-view-date">MAY 29 2016</span>
+    <span class="day-view-date" id="day-view-date"></span>
     <div class="day-view-content">
       <div class="day-highlight">
         You <span class="day-events" id="day-events">had no events for today</span>. &nbsp; <span tabindex="0" onkeyup="if(event.keyCode != 13) return; this.click();" class="day-events-link" id="add-event" data-date>Add a new event?</span>
@@ -99,6 +108,7 @@
     <span><span id="footer-date" class="footer__link">Today is May 30</span></span>    
   </div>
 </div>
+
 <script id="rendered-js" src="calendar.js"></script>
  
 
