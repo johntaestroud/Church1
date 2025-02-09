@@ -332,39 +332,39 @@ img {
   font-size: 24px;
 }
 
-/*=============== SPECS ===============*/
-.specs__container {
+/*=============== services ===============*/
+.services__container {
   position: relative;
 }
 
-.specs__content {
+.services__content {
   row-gap: 1.5rem;
 }
 
-.specs__data {
+.services__data {
   display: grid;
   row-gap: .25rem;
 }
 
-.specs__icon {
+.services__icon {
   font-size: 1.2rem;
   color: var(--cornsilk-color);
 }
 
-.specs__title {
-  font-size: var(--normal-font-size);
+.services__title {
+  /* font-size: var(--normal-font-size); */
   font-weight: var(--font-medium);
 }
 
-.specs__subtitle {
-  font-size: var(--smaller-font-size);
+.services__subtitle {
+  font-size: var(--h3-font-size);
 }
 
-.specs__data:nth-child(1), .specs__data:nth-child(4) {
-  margin-left: 1.5rem;
+.services__data:nth-child(1), .services__data:nth-child(4) {
+  /* margin-left: 1.5rem; */
 }
 
-.specs__img {
+.services__img {
   width: 250px;
   position: absolute;
   top: 2rem;
@@ -612,7 +612,7 @@ img {
   .home__description {
     font-size: var(--small-font-size);
   }
-  .specs__img {
+  .services__img {
     width: 200px;
   }
   .case__container {
@@ -644,10 +644,10 @@ img {
     top: -7rem;
     left: 0;
   }
-  .specs__img {
+  .services__img {
     position: initial;
   }
-  .specs__container {
+  .services__container {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
@@ -713,7 +713,7 @@ img {
   .home__data {
     padding-top: 8rem;
   }
-  .specs__img {
+  .services__img {
     width: 300px;
   }
   .case__container {

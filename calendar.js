@@ -225,6 +225,7 @@ function CalendarApp(date) {
     
     allSundays.forEach(sunday => {
         console.log(sunday.toLocaleDateString());
+
     });
 
   //
