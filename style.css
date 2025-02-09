@@ -16,6 +16,7 @@
   --container-color: hsl(var(--hue-color), 4%, 10%);
   /* --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%)); */
   --text-gradient: linear-gradient(hsl(var(--hue-color), 43.04%, 30.39%), hsl(var(--hue-color), 48.47%, 31.75%));
+  --text-gradient-alt: linear-gradient(hsl(var(--hue-color), 43.04%, 30.39), hsl(var(--hue-color), 14.01%, 41.04%));
   /* --test-gradient: linear-gradient(hsl(206deg 43.04% 30.39%), hsl(206deg 48.47% 31.75%)) old */
   --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
   --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
@@ -247,6 +248,17 @@ img {
   position: relative;
 }
 
+.home__title__church {
+  position: absolute;
+  top: -4rem;
+  line-height: 6rem;
+  font-size: var(--med-font-size);
+  background: hsl(var(--hue-color), 78.34%, 23.93%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* #547187 */
+}
 .home__title {
   position: absolute;
   top: -4rem;
