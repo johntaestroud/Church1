@@ -357,7 +357,7 @@ img {
 }
 
 .services__subtitle {
-  font-size: var(--h3-font-size);
+  font-size: var(--normal-font-size);
 }
 
 .services__data:nth-child(1) {
@@ -718,7 +718,8 @@ img {
     padding-top: 8rem;
   }
   .services__img {
-    width: 300px;
+    /* width: 300px; */
+    width: 250px;
   }
   .case__container {
     column-gap: 5rem;
