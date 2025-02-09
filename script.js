@@ -610,6 +610,8 @@ CalendarApp.prototype.showNewMonth = function(e){
 var calendar = new CalendarApp();
 console.log(calendar);
 
+
+
 // Copyright 2025 https://codepen.io/Oral_Seventhplanet/pen/abwvazw
 // MIT License: https://opensource.org/license/MIT
 
