@@ -236,7 +236,7 @@ img {
 .home__img {
   width: 250px;
   position: absolute;
-  top: -16rem;
+  top: -7rem;
   right: 1.5rem;
 }
 
@@ -251,13 +251,12 @@ img {
 .home__title__church {
   position: absolute;
   top: -4rem;
-  line-height: 6rem;
+  line-height: 3rem;
   font-size: var(--med-font-size);
   background: hsl(var(--hue-color), 78.34%, 23.93%);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  /* #547187 */
 }
 .home__title {
   position: absolute;
