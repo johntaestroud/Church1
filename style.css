@@ -289,14 +289,15 @@ img {
 .home__calendar {
   font-size: var(--h3-font-size);
   font-weight: var(--font-semi-bold);
-  margin-left: var(--mb-0-75);
+  margin-left: var(--mb-0-5);
+  color: var(--cornsilk-color);
 }
 
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
   /* background-color: var(--black-color); */
-  background: var(--text-gradient);
+  /* background: var(--text-gradient); */
   color: var(--white-color);
   padding: 0.1rem 0.25rem;
   transition: .3s;
