@@ -360,8 +360,8 @@ img {
   font-size: var(--h3-font-size);
 }
 
-.services__data:nth-child(1), .services__data:nth-child(4) {
-  /* margin-left: 1.5rem; */
+.services__data:nth-child(1) {
+  margin-left: 1.9rem;
 }
 
 .services__img {
