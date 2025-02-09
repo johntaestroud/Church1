@@ -361,7 +361,7 @@ img {
 }
 
 .services__data:nth-child(1) {
-  margin-left: 1.9rem;
+  /* margin-left: 1.9rem; */
 }
 
 .services__img {
