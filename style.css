@@ -367,6 +367,8 @@ img {
   /* font-size: var(--normal-font-size); */
   font-weight: var(--font-medium);
   outline: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .services__subtitle {
