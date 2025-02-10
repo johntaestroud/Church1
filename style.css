@@ -366,7 +366,7 @@ img {
 .services__title {
   /* font-size: var(--normal-font-size); */
   font-weight: var(--font-medium);
-  text-decoration: none;
+  outline: none;
 }
 
 .services__subtitle {
