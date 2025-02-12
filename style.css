@@ -320,6 +320,13 @@ img {
   /* column-gap: .75rem; */
 }
 
+.button__icon {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-left: var(--mb-0-5);
+  color: var(--cornsilk-color);
+}
+
 /*=============== SOCIAL ===============*/
 .social__icon {
   width: 80px;
