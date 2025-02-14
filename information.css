@@ -5,10 +5,11 @@
   --font-family: "Source Sans Pro", Arial, sans-serif;
   --font-monospace: "Inconsolata", monospace;
   --font-size: 12pt;
-  
-  --primary: darkgreen;
-  --primary-light: green;
-  --white: #fff;
+  --cornsilk-color:  hsl(48, 100%, 93%);
+  --white-color: hsl(0, 0%, 100%);
+  --body-color: hsl(206deg 22.72% 48.68%);
+  --darker-body-color: hsl(206deg 22% 41%);
+   --text-color: hsl(var(--hue-color), 4%, 75%);
   --off-white: whitesmoke;
   --grey-1: #f3f3f3;
   --grey-2: #e4e4e4;
@@ -147,14 +148,14 @@ code {
 a {
   position: relative;
   text-decoration: none;
-  color: var(--primary);
+  color: var(--white-color);
   transition:
     background 0.3s ease,
     color 0.3s ease;
 }
 
 a::before {
-  background-color: var(--primary-light);
+  background-color: var(--darker-body-color);
   content: '';
   height: 1px;
   position: absolute;
@@ -170,7 +171,7 @@ a:active,
 a:focus {
   outline: 0 !important;
   text-decoration: none;
-  color: var(--primary-light);
+  color: var(--darker-body-color);
 }
 
 a:hover::before,
@@ -277,7 +278,7 @@ a:focus::before {
 
 #reading-progress {
   height: 100%;
-  background-color: var(--primary);
+  background-color: var(--darker-body-color);
   transition: width 0.1s linear;
 }
 
@@ -289,10 +290,15 @@ button:active, button:focus {
   outline: 0 !important;
 }
 
+.back_btn {
+  color: var(--darker-body-color) !important;
+  text-decoration: none;
+}
+
 .btn {
   cursor: pointer;
-  background-color: var(--grey-1);
-  color: var(--primary);
+  /* background-color: var(--grey-1); */
+  color: var(--darker-body-color);
   border: none;
   outline: 0 !important;
   border-radius: 0;
