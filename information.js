@@ -545,7 +545,7 @@ class FontSize {
 
     const style = window
       .getComputedStyle(mainDoc, null)
-      .getPropertyValue('font-size');
+      .getPropertyValue('font-size-large');
 
     let currentSize = parseInt(style);
 
