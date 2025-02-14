@@ -5,6 +5,7 @@
   --font-family: "Source Sans Pro", Arial, sans-serif;
   --font-monospace: "Inconsolata", monospace;
   --font-size: 12pt;
+  --font-size-large: 16pt;
   --cornsilk-color:  hsl(48, 100%, 93%);
   --white-color: hsl(0, 0%, 100%);
   --body-color: hsl(206deg 22.72% 48.68%);
@@ -54,7 +55,7 @@
 
 html,
 body {
-  font-size: var(--font-size);
+  font-size: var(--font-size-large);
   font-family: var(--body-font);
   color: var(--white);
   background-color: var(--body-color);
@@ -780,7 +781,7 @@ button:active, button:focus {
     flex-direction: row;
     background-color: var(--grey-1);
     padding: 5px;
-    font-size: 3.5em;
+    font-size: 2.8em;
   }
   
   #settings .btn {
