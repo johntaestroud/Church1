@@ -375,7 +375,7 @@ class HashLinks {
       headings.all[i].innerHTML = `<span>${text}</span>`;
 
       const hash = document.createElement('a');
-      hash.innerText = '#';
+      hash.innerText = '';
       hash.href = href;
       hash.className = this.className;
       hash.tabIndex = -1;
