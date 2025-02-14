@@ -449,7 +449,7 @@ img {
 
 /*=============== PRODUCTS ===============*/
 .products__line {
-  line-height: 4rem;
+  /* line-height: 4rem; */
 }
 
 .products__container {
