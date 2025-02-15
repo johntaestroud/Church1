@@ -500,8 +500,7 @@ button:active, button:focus {
 }
 
 #nav-close-btn.nav-close:hover {
-  /* background-color: var(--grey-3) !important; */
-  background-color: var(--grey-1) !important;
+  background-color: var(--grey-3) !important;
 }
 
 #nav-close-btn.nav-right.nav-close {

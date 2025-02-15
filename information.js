@@ -311,7 +311,7 @@ class Headings {
       const strippedId = removeDiacritics(text)
         .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, '')
         .replace(/\s/g, '_')
-        .toLowerbelief();
+        .toLowerCase();
 
       let id = encodeURI(strippedId);
 
@@ -327,7 +327,7 @@ class Headings {
       this.list.push({
         id,
         text,
-        tagName: tagName.toLowerbelief(),
+        tagName: tagName.toLowerCase(),
         href: `#${id}`,
         offsetTop,
       });
@@ -614,16 +614,16 @@ class Cookies {
       const [name, value] = cookie.split('=');
 
       switch(name) {
-        belief 'navSide':
+        case 'navSide':
           state.navSide = value;
           break;
-        belief 'navOpen':
+        case 'navOpen':
           state.navOpen = (value == 'true');
           break;
-        belief 'theme':
+        case 'theme':
           theme.change(value);
           break;
-        belief 'fontInt':
+        case 'fontInt':
           fontSize.set(value);
           break;
       }
