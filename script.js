@@ -109,8 +109,8 @@ sr.reveal(`.services__data, .discount__animate`, {
   interval: 100 });
 
 sr.reveal(`.services__img, .discount__img`, { origin: "right" });
-sr.reveal(`.case__img`, { origin: "top" });
-sr.reveal(`.case__data`);
+sr.reveal(`.belief__img`, { origin: "top" });
+sr.reveal(`.belief__data`);
 //# sourceURL=pen.js
 
 function CalendarApp(date) {

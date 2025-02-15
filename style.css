@@ -199,7 +199,7 @@ img {
 .nav__link {
   color: var( --cornsilk-color);
   font-size: var(--h2-font-size);
-  text-transform: uppercase;
+  text-transform: upperbelief;
   font-weight: var(--font-semi-bold);
   background: var(--text-gradient);
   color: transparent;
@@ -285,6 +285,7 @@ img {
 .home__description {
   margin-bottom: var(--mb-2-5);
   line-height: var(--text-line-height);
+  color: var(--white-color);
 }
 
 .home__calendar {
@@ -380,10 +381,12 @@ img {
   outline: none;
   color: inherit;
   text-decoration: none;
+  color: var(--white-color);
 }
 
 .services__subtitle {
   font-size: var(--normal-font-size);
+  color: var(--white-color);
 }
 
 .services__data:nth-child(1) {
@@ -402,25 +405,26 @@ img {
 
 /* Test */
 
-/*=============== CASE ===============*/
-.case__container {
+/*=============== belief ===============*/
+.belief__container {
   position: relative;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.case__data {
+.belief__data {
   padding: 5rem 0 3rem;
 }
 
-.case__img {
+.belief__img {
   width: 250px;
   position: absolute;
   left: -7rem;
 }
 
-.case__description {
+.belief__description {
   margin-bottom: var(--mb-1-5);
   line-height: var(--text-line-height);
+  color: var(--white-color);
 }
 
 /*=============== DISCOUNT ===============*/
@@ -646,15 +650,15 @@ img {
   .services__img {
     width: 200px;
   }
-  .case__container {
+  .belief__container {
     grid-template-columns: .6fr 1fr;
   }
-  .case__img {
+  .belief__img {
     width: 220px;
     top: -2rem;
     left: -9rem;
   }
-  .case__data {
+  .belief__data {
     padding: 0;
   }
   .products__container {
@@ -683,13 +687,13 @@ img {
     justify-items: center;
     align-items: center;
   }
-  .case__img {
+  .belief__img {
     position: initial;
   }
-  .case__data {
+  .belief__data {
     padding: 0;
   }
-  .case__container {
+  .belief__container {
     grid-template-columns: max-content 250px;
     justify-content: center;
     align-items: center;
@@ -748,13 +752,13 @@ img {
     /* width: 300px; */
     width: 250px;
   }
-  .case__container {
+  .belief__container {
     column-gap: 5rem;
   }
-  .case__img {
+  .belief__img {
     width: 300px;
   }
-  .case__description {
+  .belief__description {
     margin-bottom: var(--mb-2);
   }
   .discount__container {
