@@ -745,14 +745,18 @@ button:active, button:focus {
   
   #navbar.nav-close {
     width: 100%;
-    height: var(--nav-min-width);
+    /* height: var(--nav-min-width); */
+    height: 60px;
+    background-color: var(--grey-1);
   }
   
   #nav-close-btn {
     height: var(--nav-min-width);
+    
     width: 100%;
     bottom: 0;
-    font-size: 1.2em;
+    font-size: 1.7em;
+    margin-bottom: 30px;
   }
   
   #nav-close-btn.nav-close {
