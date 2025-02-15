@@ -769,11 +769,11 @@ button:active, button:focus {
   
   #nav-close-btn {
     height: var(--nav-min-width);
-    
     width: 100%;
     bottom: 0;
     font-size: 2.2em;
     margin-bottom: 30px;
+    background-color: var(--white);
   }
   
   #nav-close-btn.nav-close {
