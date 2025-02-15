@@ -773,7 +773,7 @@ button:active, button:focus {
     bottom: 0;
     font-size: 2.2em;
     margin-bottom: 30px;
-    background-color: var(--white);
+    background-color: var(--grey-2);
   }
   
   #nav-close-btn.nav-close {
