@@ -127,7 +127,6 @@ h4 {
 p {
   line-height: 1.5em;
   margin: 1em 0;
-
 }
 
 code {
@@ -501,7 +500,8 @@ button:active, button:focus {
 }
 
 #nav-close-btn.nav-close:hover {
-  background-color: var(--grey-3) !important;
+  /* background-color: var(--grey-3) !important; */
+  background-color: var(--grey-1) !important;
 }
 
 #nav-close-btn.nav-right.nav-close {
@@ -693,8 +693,25 @@ button:active, button:focus {
   
   html, body {
     background-color: var(--body-color);
-    font-size: 1.3em;
+    
   }
+
+  p  {
+    font-size: 1.85em;
+  }
+
+  ol li {
+    font-size: 1.85em;
+  }
+
+  ul li {
+    font-size: 1.85em;
+  }
+
+  h2 {
+    font-size: 2.1em;
+  }
+
   
   h2, h3, h4 {
     margin-top: calc(-1 * var(--nav-min-width));
@@ -755,7 +772,7 @@ button:active, button:focus {
     
     width: 100%;
     bottom: 0;
-    font-size: 1.7em;
+    font-size: 2.2em;
     margin-bottom: 30px;
   }
   
@@ -820,7 +837,9 @@ button:active, button:focus {
     top: -60%;
     transform: translateY(-60%);
   }
+
 }
+
 
 @-webkit-keyframes zoomIn {
   from {
