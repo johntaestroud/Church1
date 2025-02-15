@@ -101,14 +101,14 @@ sr.reveal(`.home__footer`, { delay: 700 });
 sr.reveal(`.home__img`, { delay: 900, origin: "top" });
 
 sr.reveal(
-`.social__icon, .products__card, .footer__logo, .footer__content, .footer__copy`,
+`.social__icon, .testimonials__card, .footer__logo, .footer__content, .footer__copy`,
 { origin: "top", interval: 100 });
 
-sr.reveal(`.services__data, .discount__animate`, {
+sr.reveal(`.services__data, .slider__animate`, {
   origin: "left",
   interval: 100 });
 
-sr.reveal(`.services__img, .discount__img`, { origin: "right" });
+sr.reveal(`.services__img, .slider__img`, { origin: "right" });
 sr.reveal(`.belief__img`, { origin: "top" });
 sr.reveal(`.belief__data`);
 //# sourceURL=pen.js

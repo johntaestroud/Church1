@@ -427,42 +427,42 @@ img {
   color: var(--white-color);
 }
 
-/*=============== DISCOUNT ===============*/
-.discount__container {
+/*=============== slider ===============*/
+.slider__container {
   position: relative;
   background-color: var(--container-color);
   padding: 2rem 1.5rem;
   border-radius: .75rem;
 }
 
-.discount__title {
+.slider__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-75);
 }
 
-.discount__description {
+.slider__description {
   margin-bottom: var(--mb-1);
 }
 
-.discount__img {
+.slider__img {
   width: 300px;
   position: absolute;
   top: 4rem;
   right: -11rem;
 }
 
-/*=============== PRODUCTS ===============*/
-.products__line {
+/*=============== testimonials ===============*/
+.testimonials__line {
   /* line-height: 4rem; */
 }
 
-.products__container {
+.testimonials__container {
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem 1.5rem;
   padding-top: 3rem;
 }
 
-.products__card {
+.testimonials__card {
   position: relative;
   height: 132px;
   background-color: var(--container-color);
@@ -471,7 +471,7 @@ img {
   display: grid;
 }
 
-.products__img {
+.testimonials__img {
   width: 80px;
   position: absolute;
   inset: 0;
@@ -480,19 +480,19 @@ img {
   top: -3rem;
 }
 
-.products__content {
+.testimonials__content {
   align-self: flex-end;
 }
 
-.products__title, .products__price {
+.testimonials__title, .testimonials__name {
   font-size: var(--small-font-size);
 }
 
-.products__price {
+.testimonials__name {
   font-weight: var(--font-semi-bold);
 }
 
-.products__button {
+.testimonials__button {
   position: absolute;
   right: .5rem;
   bottom: .5rem;
@@ -661,7 +661,7 @@ img {
   .belief__data {
     padding: 0;
   }
-  .products__container {
+  .testimonials__container {
     grid-template-columns: 142px;
     justify-content: center;
   }
@@ -699,15 +699,15 @@ img {
     align-items: center;
     column-gap: 2rem;
   }
-  .discount__img {
+  .slider__img {
     position: initial;
   }
-  .discount__container {
+  .slider__container {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
   }
-  .products__container {
+  .testimonials__container {
     grid-template-columns: repeat(3, 142px);
     justify-content: center;
   }
@@ -761,29 +761,29 @@ img {
   .belief__description {
     margin-bottom: var(--mb-2);
   }
-  .discount__container {
+  .slider__container {
     grid-template-columns: 250px max-content;
     justify-content: center;
     column-gap: 5rem;
     padding: 3rem 0;
   }
-  .discount__title {
+  .slider__title {
     font-size: var(--h2-font-size);
     margin-bottom: var(--mb-1);
   }
-  .discount__description {
+  .slider__description {
     margin-bottom: var(--mb-2);
   }
-  .products__container {
+  .testimonials__container {
     grid-template-columns: repeat(3, 162px);
     gap: 6rem 3rem;
     padding-top: 5rem;
   }
-  .products__card {
+  .testimonials__card {
     height: 152px;
     padding: .85rem;
   }
-  .products__img {
+  .testimonials__img {
     width: 95px;
   }
   .footer__container {
@@ -811,7 +811,7 @@ img {
   .social__icon {
     width: 100px;
   }
-  .discount__img {
+  .slider__img {
     width: 350px;
   }
   .footer__container {
