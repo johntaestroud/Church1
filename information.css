@@ -802,11 +802,12 @@ button:active, button:focus {
     transform: none;
   }
   
+  /* back and dark mode button */
   #settings {
     flex-direction: row;
     background-color: var(--grey-1);
     padding: 5px;
-    font-size: 1.6em;
+    font-size: 1.3em;
   }
   
   #settings .btn {
