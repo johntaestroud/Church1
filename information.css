@@ -497,7 +497,7 @@ button:active, button:focus {
 }
 
 #nav-close-btn.nav-close {
-  background-color: var(--grey-2);
+  background-color: var(--grey-1);
 }
 
 #nav-close-btn.nav-close:hover {
